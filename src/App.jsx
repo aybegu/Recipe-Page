@@ -16,13 +16,13 @@ function App() {
         <div className='main--preparation'>
           <h4>Preparation time</h4>
           <ul className='main--unordered-li'>
-            <li className='main--list'>
+            <li>
               <b>Total:</b> Approximately 10 minutes
             </li>
-            <li className='main--list'>
+            <li>
               <b>Preparation:</b> 5 minutes
             </li>
-            <li className='main--list'>
+            <li>
               <b>Cooking:</b> 5 minutes
             </li>
           </ul>
@@ -30,36 +30,36 @@ function App() {
         <div className='main--ingredients'>
           <h2 className='main--title'>Ingredients</h2>
           <ul className='main--unordered-li'>
-            <li className='main--list'>2-3 large eggs</li>
-            <li className='main--list'>Salt, to taste</li>
-            <li className='main--list'>Pepper, to taste</li>
-            <li className='main--list'>1 tablespoon of butter or oil</li>
-            <li className='main--list'>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+            <li>2-3 large eggs</li>
+            <li>Salt, to taste</li>
+            <li>Pepper, to taste</li>
+            <li>1 tablespoon of butter or oil</li>
+            <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
           </ul>
         </div>
         <div className='main--instructions'>
           <h2 className='main--title'>Instructions</h2>
           <ol>
-            <li className='main--list'>
+            <li>
               <b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
               You can add a tablespoon of water or milk for a fluffier texture.
             </li>
-            <li className='main--list'>
+            <li>
               <b>Heat the pan:</b> Place a non-stick frying pan over medium heat and add butter or oil.
             </li>
-            <li className='main--list'>
+            <li>
               <b>Cook the omelette:</b> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
               the eggs evenly coat the surface.
             </li>
-            <li className='main--list'>
+            <li>
               <b>Add fillings (optional):</b> When the eggs begin to set at the edges but are still slightly runny in the
               middle, sprinkle your chosen fillings over one half of the omelette.
             </li>
-            <li className='main--list'>
+            <li>
               <b>Fold and serve:</b> As the omelette continues to cook, carefully lift one edge and fold it over the
               fillings. Let it cook for another minute, then slide it onto a plate.
             </li>
-            <li className='main--list'>
+            <li>
               <b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.
             </li>
           </ol>
@@ -88,10 +88,10 @@ function App() {
         </div>
       </main>
 
-      <footer class="attribution">
+      <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="https://github.com/aybegu">Ayca Berfin Gurler</a>.
-      </footer>
+      </div>
     </div>
   )
 }
