@@ -17,17 +17,18 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 7rem 0;
 }
 
 .container{
-  width: 42rem;
+  width: 43rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: var(--White);
   padding: 2.5rem;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
 }
 
 .main{
@@ -38,7 +39,7 @@ body{
 
 .main--image{
   width: 100%;
-  border-radius: .5rem;
+  border-radius: .7rem;
 
 }
 
@@ -54,7 +55,7 @@ body{
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
-
+  color: var(--Dark-Charcoal);
 }
 
 .main--preparation{
@@ -65,6 +66,7 @@ body{
   padding: 1.5rem;
   border-radius: .6rem;
   font-family: 'Outfit', sans-serif;
+  color: var(--Wenge-Brown)
 }
 
 .main--preparation > h4{
@@ -78,16 +80,17 @@ body{
   line-height: 2rem;
 }
 
-.main--preparation li{
-  margin: 0;
+li{
   padding-left: 1rem;
 }
+
+/* .main--preparation li{
+  padding-left: 1rem;
+} */
 
 .main--preparation li::marker{
   color: var(--Dark-Raspberry);
   font-size: 13px;
-  display: flex;
-  
 }
 
 .main--ingredients{
@@ -95,7 +98,18 @@ body{
   flex-direction: column;
   gap: .5rem;
   font-family: 'Outfit', sans-serif;
+  color: var(--Wenge-Brown)
 
+}
+
+/* .main--ingredients li{
+  padding-left: 1rem;
+} */
+
+.main--ingredients li::marker{
+  color: var(--Dark-Raspberry);
+  font-size: 13px;
+  
 }
 
 .main--title{
@@ -103,28 +117,73 @@ body{
   font-family: 'Young Serif', serif;
   font-weight: 400;
   margin: 0;
+  font-size: 26px;
 }
 
 .main--instructions{
   font-family: 'Outfit', sans-serif;
+  border-bottom: 1px solid hsla(30, 10%, 34%, 0.2);
+  border-top: 1px solid hsla(30, 10%, 34%, 0.2);
+  padding: 15px 0;
+  color: var(--Wenge-Brown);
+  letter-spacing: .2px;
+  line-height: 20px;
+}
 
+.main--instructions h2{
+  margin: 1rem 0 .7rem 0;
+}
+
+/* .main--instructions li{
+  padding-left:1rem;
+} */
+
+.main--instructions ol{
+  margin: 0;
+  padding: 20px 25px ; /*listing dots under header*/
+  /* line-height: 1.5rem; */
+}
+
+.main--instructions li{
+  margin-bottom: .7rem; /* creating space between lists */
+}
+
+.main--instructions li::marker{
+  font-weight: bold;
+  color: var(--Nutmeg);
 }
 
 .main--nutrition{
   font-family: 'Outfit', sans-serif;
+  color: var(--Wenge-Brown)
+}
 
+.main--nutrition p{
+  padding: 1rem 0;
+  font-size: 16px;
 }
 
 .main--table{
-
+  width: 100%;
+  flex-direction: column;
+  gap: .5rem;
+  font-size: 14px;
 }
 
-.main--nut-header{
-
+td{
+  padding: 8px;
+  padding-left: 1.5rem;
+  text-align: left;
+  /* border-bottom: 1px solid hsla(30, 10%, 34%, 0.2); */
+  border-bottom: 1px solid var(--Light-Grey);
 }
 
-.main--nut-info{
+tr:last-child td{
+  border-bottom: none;
+}
 
+tr td:last-child{
+  color: var(--Nutmeg);
 }
 
 .attribution {

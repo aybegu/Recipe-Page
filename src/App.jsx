@@ -69,19 +69,19 @@ function App() {
           <p className='main--text'>The table below shows nutritional values per serving without the additional fillings.</p>
           <table className='main--table'>
             <tr>
-              <td className='main--nut-header'>Calories</td>
+              <td>Calories</td>
               <td className='main--nut-info'><b>277kcal</b></td>
             </tr>
             <tr>
-              <td className='main--nut-header'>Carbs</td>
+              <td>Carbs</td>
               <td className='main--nut-info'><b>0g</b></td>
             </tr>
             <tr>
-              <td className='main--nut-header'>Protein</td>
+              <td>Protein</td>
               <td className='main--nut-info'><b>20g</b></td>
             </tr>
             <tr>
-              <td className='main--nut-header'>Fat</td>
+              <td>Fat</td>
               <td className='main--nut-info'><b>22g</b></td>
             </tr>
           </table>
